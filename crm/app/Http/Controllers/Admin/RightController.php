@@ -51,4 +51,10 @@ class RightController extends Controller{
         ];
         echo json_encode($arr);exit;
     }
+    /**
+     * 权限节点添加视图
+     */
+    public function rightAdd(){
+        echo 111;
+    }
 }

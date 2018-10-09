@@ -51,4 +51,7 @@ Route::any('right','Admin\RightController@right');
 //展示权限节点列表
 Route::any('rightlist','Admin\RightController@rightList');
 
+//权限节点添加模板
+Route::any('rightadd','Admin\RightController@rightAdd');
+
 
