@@ -16,6 +16,7 @@ class AdminController extends CommonController{
      * 加载展示数据
      */
     public function adminList(){
+//        echo 111;exit;
         //查询数据
         $where = ['admin_status' => 1];
         $admin_data = DB::table('admin') -> where( $where ) -> get();

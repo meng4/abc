@@ -55,3 +55,20 @@ Route::any('rightlist','Admin\RightController@rightList');
 Route::any('rightadd','Admin\RightController@rightAdd');
 
 
+
+
+//订单
+Route::any('order','Admin\OrderController@order');
+
+//订单展示
+Route::any('orderList','Admin\OrderController@orderList');
+
+//订单添加展示
+Route::any('orderDo','Admin\OrderController@orderDo');
+
+
+//客户
+Route::any('user','Admin\UserController@user');
+
+//客户展示
+Route::any('userList','Admin\UserController@userList');

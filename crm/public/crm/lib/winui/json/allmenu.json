@@ -43,6 +43,16 @@
       "id": 62
     },
     {
+      "title": "客户",
+      "pageURL": "user",
+      "name": "客户",
+      "icon": "fa-thumbs-up",
+      "openType": 2,
+      "extend": false,
+      "childs": null,
+      "id": 62
+    },
+    {
       "title": "不落阁",
       "pageURL": "http://www.mycrm.com/",
       "name": "作者博客",
@@ -84,6 +94,16 @@
           "title": "管理员管理",
           "pageURL": "admins",
           "name": "管理员管理",
+          "icon": "fa-th-large",
+          "openType": 2,
+          "extend": false,
+          "childs": null,
+          "id": 22
+        },
+        {
+          "title": "订单",
+          "pageURL": "order",
+          "name": "订单",
           "icon": "fa-th-large",
           "openType": 2,
           "extend": false,
