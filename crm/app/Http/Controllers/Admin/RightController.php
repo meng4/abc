@@ -55,6 +55,6 @@ class RightController extends Controller{
      * 权限节点添加视图
      */
     public function rightAdd(){
-        echo 111;
+        echo 123;
     }
 }
